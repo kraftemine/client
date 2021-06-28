@@ -108,7 +108,7 @@ internal object AutoObsidian : Module(
     var searchingState = SearchingState.PLACING; private set
 
     private var active = false
-    private var placingPos = BlockPos(0, -1, 0)
+    private var placingPos = BlockPos(1, -1, 0)
     private var shulkerID = 0
     private var lastHitVec: Vec3d? = null
     private var lastMiningSide = EnumFacing.UP
